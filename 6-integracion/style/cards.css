@@ -1,0 +1,39 @@
+/* Estilos cartas */
+.carta{
+    background-color: rgb(150, 96, 96);
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.carta div{
+    padding: 20px;
+     border-radius: 10px;
+
+}
+/* Estilos imagen */
+.carta img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+   
+}
+
+.carta button{
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    border: 2px black solid;
+    cursor: pointer;
+    border: 50%;
+   
+}
+
+.carta button:hover{
+    background-color: rgb(39, 28, 28);
+    text-decoration: underline;
+    
+}
